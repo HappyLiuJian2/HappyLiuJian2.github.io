@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "微软雅黑", serif;
+}
+h2 {
+  text-align: center;
+}
+a {
+  color: #fff;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1439957886_9505947.eot');
+  src: url('//at.alicdn.com/t/font_1439957886_9505947.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1439957886_9505947.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1439957886_9505947.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1439957886_9505947.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont", serif;
+  font-size: 30px;
+  font-style: normal;
+  margin-right: 15px;
+}
+.content p {
+  line-height: 25px;
+  font-size: 12pt;
+}
+.right {
+  position: fixed;
+  right: 20px;
+  top: 40%;
+}
+.head {
+  width: 200px;
+  height: 200px;
+  margin: 30% auto 20px;
+}
+.head img {
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+}
+.title {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.selfIntro {
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.shake {
+  transform: rotate(4deg);
+}
+#callMe p {
+  text-align: center;
+}
