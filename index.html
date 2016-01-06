@@ -5,59 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MyResume</title>
-    <script type="text/javascript" src="fullJs/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="fullCss/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="fullCss/style.css">
 </head>
 <body>
 <div id="wrap">
-    <div class="container-fluid">
+    <nav class="navbar">
+        <div class="navbar-header">
+            <span class="navbar-brand"><i class="iconfont">&#xe600;&nbsp;Gene</i></span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#22" data-toggle="modal" data-target="#myModal">关于该页</a></li>
+            <li><a href="http://HappyLiuJian.github.io" target="_blank">访问我</a></li>
+        </ul>
 
+    </nav>
+    <div class="container-fluid header">
+        <h1>HappyLiuJian</h1>
+        <p>A pebble on the ground of Program</p>
     </div>
-    <div class="container col-md-8 col-md-offset-2">
-        <div class="col-md-4 col-md-offset-2">
-            <div class="card">
-                <div class="top">
-                    <img src="images/head.png" alt="">
-                </div>
-                <div class="bottom">
-                    <p>第一次实验</p>
-                </div>
-            </div>
+
+    <div class="container deck">
+        <div class=" article">
+            <h3>Minority</h3>
+            <p>喜欢追求小众的东西，爱每一个能带来清新、脱俗的感官享受的事物。所以我喜欢小而快捷的脚本语言，推崇的偶像是保罗·格雷厄姆，少数派报告是我最常用的流媒体。</p>
         </div>
-        <div class="col-md-4 col-md-offset-2">
-            <div class="card">
-                <div class="top">
-                    <img src="images/head.png" alt="">
-                </div>
-                <div class="bottom">
-                    <p>第二次实验</p>
-                </div>
-            </div>
+        <div class=" article">
+            <h3>Geek</h3>
+            <p>如果有一种东西能够打动我，那它一定要有趣。充满闪光点的东西总是能让我付出更多的努力去追求</p>
         </div>
-        <div class="col-md-4 col-md-offset-2">
-            <div class="card">
-                <div class="top">
-                    <img src="images/head.png" alt="">
-                </div>
-                <div class="bottom">
-                    <p>第三次实验</p>
-                </div>
-            </div>
+        <div class=" article">
+            <h3>Elegant</h3>
+            <p>只有优雅的人才值得生活，平凡的人只是活着</p>
         </div>
-        <div class="col-md-4 col-md-offset-2">
-            <div class="card">
-                <div class="top">
-                    <img src="images/head.png" alt="">
-                </div>
-                <div class="bottom">
-                    <p>第四次实验</p>
-                </div>
-            </div>
+        <div class=" article">
+            <h3>Love</h3>
+            <p>没有这个，前面三条都是装逼</p>
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="downBtnContainer container-fluid">
+        <a href="#22"><i class="glyphicon glyphicon-menu-down"></i></a>
+    </div>
 </div>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">关于本页</h4>
+            </div>
+            <div class="modal-body">
+                <p>这是一个保存实验作业的页面，主要采用bootstrap定制，某些动画效果可能在低版本的浏览器上没有效果，主要是h5和css3的兼容原因。建议使用chrome浏览器打开本网页</p>
+            </div>
+            <div class="modal-footer">
+                <p>author: HappyLiuJian</p>
+                <p>contact: liujianyousheng@hotmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="fullJs/jquery.min.js"></script>
+<script type="text/javascript" src="fullJs/bootstrap.min.js"></script>
+<script type="text/javascript" src="fullJs/slick.min.js"></script>
 <script type="text/javascript" src="fullJs/script.js"></script>
 </body>
 </html>
