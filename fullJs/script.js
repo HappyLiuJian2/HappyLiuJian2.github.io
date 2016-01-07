@@ -17,5 +17,27 @@ $(document).ready(function () {
             $('.deck').children().eq(j).css('top', 60 * (j-1) + 280 + 'px');
         }
 
-    })
+    });
+
+    $(document).on('scroll', function () {
+        var scrollTop = $(document).scrollTop();
+        if(scrollTop == 0) {
+            $('.navbar').css('backgroundColor','transparent');
+        } else {
+            $('.navbar').css('backgroundColor','rgb(57,63,77)');
+        }
+    });
+
+    $('#downBtn').on('click', function (e) {
+        e.stopPropagation();
+        $traget = $(e.currentTarget);
+        var href = $traget.attr('href');
+        var scrollTop = $('#wrap_2').offset().top;
+        $('html,body').animate({scrollTop:scrollTop},'fast','swing');
+    });
+
+    $('.slick').slick({
+        autoplay : true,
+        infinite : true
+    });
 });
