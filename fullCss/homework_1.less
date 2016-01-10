@@ -20,6 +20,11 @@ h1,h2,h3,h4,h5,h6,p {
   cursor: default;
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+}
+
 .container {
   width: 950px;
 }
@@ -38,6 +43,7 @@ h1,h2,h3,h4,h5,h6,p {
   width: 100%;
   position: fixed;
   background-color: rgb(57, 63, 77);
+  border-radius: 0;
   .navbar-header {
     margin-left: 8%;
     i {
@@ -80,12 +86,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 .homework_header {
   height: 250px;
-  background-image: url(../images/music.jpg);
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   background-size:cover;
   position: relative;
   top: 60px;
+  -webkit-box-shadow: 0 6px 3px -3px #dcdcdc;
+  -moz-box-shadow: 0 6px 3px -3px #dcdcdc;
+  box-shadow: 0 6px 3px -3px #dcdcdc;
 
   h2 {
     color: #fff;
@@ -117,6 +125,8 @@ h1,h2,h3,h4,h5,h6,p {
 
   .date_picker {
     background-color: #fff;
+    -webkit-box-shadow: 0 6px 3px -3px #dcdcdc;
+    -moz-box-shadow: 0 6px 3px -3px #dcdcdc;
     box-shadow: 0 6px 3px -3px #dcdcdc;
 
     .datepicker-switch {
@@ -158,5 +168,24 @@ h1,h2,h3,h4,h5,h6,p {
   .work {
     background-color: #fff;
     min-height: 500px;
+    padding: 15px;
+    -webkit-box-shadow: 0 6px 3px -3px #dcdcdc;
+    -moz-box-shadow: 0 6px 3px -3px #dcdcdc;
+    box-shadow: 0 6px 3px -3px #dcdcdc;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .downloadBtn {
+      background-color: #4a90e2;
+      padding: 5px 15px;
+      color: #fff;
+    }
+
+    .downloadBtn:hover {
+      text-decoration: none;
+      background-color: rgba(74, 144, 226, 0.5);
+    }
   }
 }
