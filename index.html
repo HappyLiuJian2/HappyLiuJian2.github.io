@@ -31,25 +31,44 @@
         <div class=" article">
             <h3>Minority</h3>
             <div class="article_content">
-                <p>喜欢追求小众的东西，爱每一个能带来清新、脱俗的感官享受的事物。所以我喜欢小而快捷的脚本语言，推崇的偶像是保罗·格雷厄姆，少数派报告是我最常用的流媒体。</p>
+                <!--<p>喜欢追求小众的东西，爱每一个能带来清新、脱俗的感官享受的事物。所以我喜欢小而快捷的脚本语言，推崇的偶像是保罗·格雷厄姆，少数派报告是我最常用的流媒体。</p>-->
+                <ul style="list-style: none">
+                    <li>喜欢追求小众的东西</li>
+                    <li>爱每一个能带来清新、脱俗的感官享受的事物</li>
+                    <li>我喜欢小而快捷的脚本语言，推崇的偶像是保罗·格雷厄姆</li>
+                    <li>少数派报告是我最常用的流媒体</li>
+                </ul>
             </div>
         </div>
         <div class=" article">
-            <h3>Geek</h3>
+            <h3>Code</h3>
             <div class="article_content">
-                <p>如果有一种东西能够打动我，那它一定要有趣。充满闪光点的东西总是能让我付出更多的努力去追求</p>
+                <p>Talk is cheap，show me your code</p>
+                    <pre>
+                    http.createServer((req, res) => {
+                        res.writeHead(200, { 'Content-Type': 'text/plain' });
+                        res.end('Hello World\n');
+                    }).listen(port, hostname, () => {
+                        console.log(`Server running at http://${hostname}:${port}/`);
+                    });
+                    </pre>
             </div>
         </div>
         <div class=" article">
-            <h3>Elegant</h3>
+            <h3>Music</h3>
             <div class="article_content">
-                <p>只有优雅的人才值得生活，平凡的人只是活着</p>
+                <p>音乐家的艺术不在于直接描绘形象，而在于把心灵置于这些对象能够在心灵里创造的情绪中去。</p>
             </div>
         </div>
         <div class=" article">
-            <h3>Love</h3>
+            <h3>Movie</h3>
             <div class="article_content">
-                <p>没有这个，前面三条都是装逼</p>
+                <ul style="list-style: none">
+                    <li>The Shawshank Redemption</li>
+                    <li>这个杀手不太冷 Léon</li>
+                    <li>阿甘正传 Forrest Gump</li>
+                    <li>霸王别姬</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -60,6 +79,7 @@
 
 <div id="wrap_2">
     <h1>实验展示台</h1>
+    <br>
     <div class="stage container slick">
         <div id="card_1" class="card">
             <div class="topTem">
@@ -73,7 +93,11 @@
         <div id="card_2" class="card">
             <div class="topTem">
                 <h3>图像处理</h3>
-                <a href="fullHtml/homework_2.html">第二次实验</a>
+                <br>
+                <div class="img-container"></div>
+                <div class="container-fluid" style="text-align: center;">
+                    <a href="fullHtml/homework_2.html" class="goDetail">实验详情</a>
+                </div>
             </div>
             <div class="bottomTem"></div>
         </div>
@@ -87,7 +111,12 @@
         <div id="card_4" class="card">
             <div class="topTem">
                 <h3>网页生成</h3>
-                <a href="fullHtml/homework_4.html">第四次实验</a>
+                <br>
+                <div class="img-container">
+                </div>
+                <div class="container-fluid" style="text-align: center;">
+                    <a href="fullHtml/homework_4.html" class="goDetail">实验详情</a>
+                </div>
             </div>
             <div class="bottomTem"></div>
         </div>
