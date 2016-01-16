@@ -10,9 +10,6 @@ $(document).ready(function () {
 
     $('#uploadify').uploadify({
         'swf' : '../uploadify/uploadify.swf',
-        'uploader' : '../uploadify/uploadify.php',
-        'onUploadSuccess' : function(file, data, response) {
-            alert('The file was saved to: ' + data);
-        }
+        'uploader' : '../uploadify/uploadify.php'
     })
 });
