@@ -6,5 +6,13 @@ $(document).ready(function () {
     $('.date_picker').datepicker({
         language: 'zh-CN',
         todayHighlight : true
+    });
+
+    $('#uploadify').uploadify({
+        'swf' : '../uploadify/uploadify.swf',
+        'uploader' : '../uploadify/uploadify.php',
+        'onUploadSuccess' : function(file, data, response) {
+            alert('The file was saved to: ' + data);
+        }
     })
 });
